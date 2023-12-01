@@ -18,7 +18,7 @@ class GradientContainer extends StatelessWidget {
 
   @override
   Widget build(context) {
-    Widget widget = Container(
+    return Container(
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: colors,
@@ -31,7 +31,5 @@ class GradientContainer extends StatelessWidget {
         child: DiceRoller(),
       ),
     );
-
-    return widget;
   }
 }

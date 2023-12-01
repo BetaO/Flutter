@@ -24,7 +24,7 @@ class _DiceRollerState extends State<DiceRoller> {
 
   @override
   Widget build(context) {
-    Widget widget = Column(
+    return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
         Image.asset(
@@ -45,6 +45,5 @@ class _DiceRollerState extends State<DiceRoller> {
         ),
       ],
     );
-    return widget;
   }
 }
